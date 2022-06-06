@@ -20,7 +20,7 @@ const BookSearch = () => {
   const getBooks = useCallback(
     async (search) => {
       const API_HOST = "https://www.googleapis.com/books/v1";
-      const API_KEY = "&maxResults=20&key=AIzaSyAcIJd77KwdvSJpQIZJQLN2r7UD8bluKDk";
+      const API_KEY = "API_KEY";
 
       try {
         setErrorMessage("");
