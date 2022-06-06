@@ -1,0 +1,77 @@
+body {
+    background-color: #E3DAC9;
+}
+
+.header {
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: x-large;;
+    color: black;
+}
+.buttons{
+    border: none;
+    top:120px;
+    position: relative;
+    left:34%;
+}
+.button{
+    border: none;
+    padding: 15px 45px;
+    margin: 4px;
+    font-size: 24px;
+}
+.button:disabled{
+    opacity: 0.9;
+}
+
+.palette {
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    font-family: "Consolas";
+    margin: 10px;
+}
+
+.colorCard {
+    height: 370px;
+    width: 210px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.paletteWrapper {
+    position: relative;
+    display: flex;
+    left:8%;
+}
+
+/*body{*/
+/*    background-color: #E3DAC9;*/
+/*}*/
+
+/*#header{*/
+/*    text-align: center;*/
+/*    font-family: "Arial Black";*/
+/*    font-size: larger;*/
+/*}*/
+/*.paletteWrapper{*/
+/*    min-height: 400px ;*/
+/*    padding: 10px;*/
+/*    background-color: white;*/
+/*    border-radius: 10px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.button {*/
+/*    background-color: #EFEFEF;*/
+/*    font-size: 25px;*/
+/*    position: relative;*/
+/*    top: 35px;*/
+/*    border: none;*/
+/*    font-family: "Arial";*/
+/*    padding: 15px 45px;*/
+/*    margin: 4px;*/
+/*}*/
+
